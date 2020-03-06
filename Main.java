@@ -4,7 +4,7 @@ package ru.geekbrains.homework;
 *author: Nikolay Bakhvalov
 *time: 2020-03-06
 *
- */
+*/
 
 
 
@@ -17,13 +17,13 @@ package ru.geekbrains.homework;
 //* С помощью цикла вывести информацию только о сотрудниках старше 40 лет;
 
 class Person {
-    private String name;
-    private String surname;
-    private String post;
-    private String email;
-    private String phone;
-    private double salary;
-    private int age;
+    final String name;
+    final String surname;
+    final String post;
+    final String email;
+    final String phone;
+    final double salary;
+    final int age;
 
 
     Person(String name, String surname, String post, String email, String phone, double salary, int age) {
